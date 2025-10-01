@@ -4,6 +4,8 @@
 
 *by Adam Rivers — A product of Hello Security LLC Research Labs*
 
+![AutoContest Screenshot](screenshots/screenshot1.jpg)
+
 AutoContest is a Python-based tool that automates the process of finding and entering online sweepstakes and contests. It scrapes contest URLs from a curated list of aggregator sites, automatically fills out entry forms, and handles both POST and GET submissions, with support for CAPTCHA solving. The tool provides live progress updates and a user-friendly interface using the `rich` library.
 
 ## Features
@@ -61,6 +63,8 @@ AutoContest is a Python-based tool that automates the process of finding and ent
    - Select `[4]` to update the aggregator list (optional, as it runs automatically with `[1]`).
    - Select `[1]` to scrape contests and submit entries, with live progress updates.
    - View results with `[2]` to see success/failure details.
+
+![Usage Screenshot](screenshots/screenshot2.jpg)
 
 ## Configuration
 
@@ -126,3 +130,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or feedback, contact Adam Rivers at Hello Security LLC Research Labs via [officialadamrivers@gmail.com](mailto:officialadamrivers@gmail.com).
+
